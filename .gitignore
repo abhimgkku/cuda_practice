@@ -1,0 +1,119 @@
+############################
+# Build / CMake artifacts
+############################
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Testing/
+
+# Make / Ninja
+Makefile
+makefile
+CMakeScripts/
+CMakeFiles/
+CMakeTmp/
+CMakeFiles/*
+CMakeFiles/**
+
+# Optional: compilation database (track only if you want it in Git)
+# compile_commands.json
+
+############################
+# Compiled objects / libs
+############################
+
+# Object files
+*.o
+*.obj
+*.lo
+*.la
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+############################
+# Binaries / executables
+############################
+
+*.exe
+*.out
+*.app
+*.x
+
+# Common local binary directories
+bin/
+out/
+dist/
+debug/
+release/
+
+############################
+# CUDA-specific artifacts
+############################
+
+# CUDA intermediate / output
+*.cubin
+*.ptx
+*.fatbin
+*.sass
+
+# Nsight Compute / Nsight Systems reports
+*.ncu-rep
+*.qdrep
+*.nsight*
+*.rpt
+
+############################
+# Editor / IDE files
+############################
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+*.iml
+
+# Visual Studio (if ever used)
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.sln
+
+############################
+# OS / temp files
+############################
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Vim / Emacs / generic
+*~
+*.swp
+*.swo
+.#*
+
+# Core dumps
+core
+core.*
