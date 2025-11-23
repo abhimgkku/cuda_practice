@@ -1,0 +1,3 @@
+/mnt/c/Users/abhin/cuda_practice/vector_add/CMakeFiles/vector_add.dir
+/mnt/c/Users/abhin/cuda_practice/vector_add/CMakeFiles/edit_cache.dir
+/mnt/c/Users/abhin/cuda_practice/vector_add/CMakeFiles/rebuild_cache.dir
